@@ -1,6 +1,6 @@
 package com.cloubiot.buddyWAPI.base;
 
-public class SuccessResponse {
+public class BaseResponse {
 
 	private boolean isSuccess = true;
 	private String statusMessage;
@@ -20,6 +20,4 @@ public class SuccessResponse {
 	public void setStatusMessage(String statusMessage) {
 		this.statusMessage = statusMessage;
 	}
-	
-	
 }

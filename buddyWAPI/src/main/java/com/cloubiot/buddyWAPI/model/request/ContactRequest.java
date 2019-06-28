@@ -1,16 +1,16 @@
 package com.cloubiot.buddyWAPI.model.request;
 
-import com.cloubiot.buddyWAPI.model.dbentity.Contact;
+import com.cloubiot.buddyWAPI.model.dbentity.Content;
 
 public class ContactRequest {
 
-	Contact contact;
+	Content contact;
 
-	public Contact getContact() {
+	public Content getContact() {
 		return contact;
 	}
 
-	public void setContact(Contact contact) {
+	public void setContact(Content contact) {
 		this.contact = contact;
 	}
 	
